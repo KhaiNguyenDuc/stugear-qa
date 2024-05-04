@@ -22,11 +22,11 @@ jobs:
             cd root
             if [ -d "stugear" ]; then
               cd ./stugear
-              git pull https://github.com/KhaiNguyenDuc/stugear.git --ff --no-edit
+              git pull https://github.com/KhaiNguyenDuc/stugear-qa.git --ff --no-edit
               wait
               cd ../
             else
-              git clone https://github.com/KhaiNguyenDuc/stugear.git
+              git clone https://github.com/KhaiNguyenDuc/stugear-qa.git
               wait
             fi
           
